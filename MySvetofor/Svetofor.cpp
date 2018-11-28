@@ -28,7 +28,7 @@ Automat::~Automat()
 void Automat::Power_On()
 {
 	A(1);
-	Sleep(40000);              //Таймер работы зелёного
+	//Sleep(40000);              //Таймер работы зелёного
 }
 
 void Automat::Power_Off()
@@ -55,19 +55,19 @@ void Automat::Blink_mode()
 void Automat::Green_timer()
 {
 	A(4);
-	Sleep(4000);              //Таймер работы зелёного мигающего
+	//Sleep(4000);              //Таймер работы зелёного мигающего
 }
 
 void Automat::Blink_timer()
 {
 	A(5);
-	Sleep(4000);              //Таймер работы жёлтого
+	//Sleep(4000);              //Таймер работы жёлтого
 }
 
 void Automat::Red_timer()
 {
 	A(6);
-	Sleep(30000);              //Таймер работы красного
+	//Sleep(30000);              //Таймер работы красного
 }
 
 //ОПИСАНИЕ УПРАВЛЯЮЩЕЙ ЛОГИКИ
